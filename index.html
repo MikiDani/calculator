@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="calculator.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Számológép</title>
+</head>
+<body>   
+    <main>
+        <h1>Számológép</h1>
+        <div class="calculatorboxtop">
+            <div id="7" class="btn number">7</div>
+            <div id="8" class="btn number">8</div>
+            <div id="9" class="btn number">9</div>
+            <div id="osztas" class="btn operation">/</div>
+            
+            <div id="4" class="btn number">4</div>
+            <div id="5" class="btn number">5</div>
+            <div id="6" class="btn number">6</div>
+            <div id="szorzas" class="btn operation">x</div>
+            
+            <div id="1" class="btn number">1</div>
+            <div id="2" class="btn number">2</div>
+            <div id="3" class="btn number">3</div>
+            <div id="kivonas" class="btn operation">-</div>
+            
+            <div id="vesszo" class="btn operation">,</div>
+            <div id="0" class="btn number">0</div>
+            <div id="eggyelo" class="btn result">=</div>
+            <div id="osszeadas" class="btn operation">+</div>
+        </div>
+        <div class="calculatorboxbottom">
+            <div id="operationsdisplay"><p></p></div>
+            <div id="calculatordisplay"><p>0</p></div>
+        </div>
+        <div class="resetbuttondiv">
+            <span><button id="resetbutton">RESET</button></span>
+            <span><button id="delbutton">DEL</button></span>
+        </div>
+        <script src="main.js"></script>
+    </main>
+</body>
+</html>

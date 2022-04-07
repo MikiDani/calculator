@@ -1,0 +1,126 @@
+:root{
+    --bg1:#6fbbe490;
+    --center:#ffe3c8;
+    --calculatorbg: #e9bd92;
+    --h1:#563415;
+    --button:#e9bd92;
+    --topborder:#9d5716;
+
+    --buttonnumber: #ffe3c8;
+    --buttonnumberHover: #dcb289;
+    --operationnumber:#55882270;
+    --operationnumberHover:#46662670;
+    --resultnumber: #e03e1f;
+    --resultnumberHover: #8f1c05;
+    --allActive: #f3c716;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: var(--bg1);
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 520px;
+    margin: 0 auto;
+    background-color: var(--center);
+    margin-top: 10vh;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    border-radius: 0px 0px 10px 10px;
+    border-top: 10px solid var(--topborder);
+    box-shadow: 0px 5px 7px #000c;
+}
+
+button{
+    width: 120px;
+    height: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #e9bd92;
+}
+
+.calculatorboxtop{
+    display: grid;
+    height: 500px;
+    grid-template-columns: 25% 25% 25% 25%;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 0px 10px;
+    border-radius: 10px 10px 0 0;
+    background-color: var(--calculatorbg);
+    font-family: sans-serif;
+    color: black;
+    font-size: 35px;
+}
+
+.calculatorboxbottom{
+    box-sizing: border-box;
+    background-color: var(--calculatorbg);
+    padding: 10px 10px 5px 10px;
+    margin: 0px 10px 10px 10px;
+    border-radius: 0 0 10px 10px;
+}
+#calculatordisplay{
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-right: 10px;
+    background-color: var(--buttonnumber);
+    text-align: right;
+}
+#operationsdisplay{
+    text-align: right;
+    line-height: 30%;
+    margin-right: 12px;
+}
+
+#calculatordisplay p{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.calculatorboxtop div{
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 40px;
+    border: 1px solid black;
+}
+
+.resetbuttondiv{
+    text-align: center;
+}
+
+.btn{
+    font-family: sans-serif;
+}
+
+.number{
+    background-color: var(--buttonnumber);
+}
+.number:hover{
+    background-color: var(--buttonnumberHover);
+}
+.operation{
+    background-color: var(--operationnumber);
+}
+.operation:hover{
+    background-color: var(--operationnumberHover);
+}
+.result{
+    background-color: var(--resultnumber);
+}
+.result:hover{
+    background-color: var(--resultnumberHover);
+}
+
+.number:active, .operation:active, .result:active{
+    background-color: var(--allActive);
+}
+
+h1{
+    text-align: center;
+    color: var(--h1);
+}

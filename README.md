@@ -1,2 +1,2 @@
 # Számológép | Vanilla JS
-Ezt a számológépet javascript gyakorlásképpen csináltam.
+Ezt a nagyon egyszerű számológépet javascript gyakorlásképpen csináltam.
